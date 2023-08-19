@@ -60,8 +60,6 @@ export default {
 
 <style>
 
-/* * {outline: solid red;} */
-
 html::-webkit-scrollbar {
 	display: none;
 }
