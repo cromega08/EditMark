@@ -17,10 +17,14 @@ export default defineConfig({
       autoImport: true,
     }),
   ],
+  base: "/EditMark/",
   define: { 'process.env': {} },
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      '@layouts': fileURLToPath(new URL('./src/components/layout', import.meta.url)),
+      '@elements': fileURLToPath(new URL('./src/components/elements', import.meta.url)),
+      '@utils': fileURLToPath(new URL('./src/utils', import.meta.url))
     },
     extensions: [
       '.js',

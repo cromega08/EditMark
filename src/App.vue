@@ -1,9 +1,9 @@
 <script>
-import SideBar from './components/layout/SideBar.vue';
-import Header from './components/layout/Header.vue';
-import MarkdownArea from './components/elements/MarkdownArea.vue';
-import HTMLArea from './components/elements/HTMLArea.vue';
-import utils from "./utils/utils.js"
+import SideBar from '@layouts/SideBar.vue';
+import Header from '@layouts/Header.vue';
+import MarkdownArea from '@elements/MarkdownArea.vue';
+import HTMLArea from '@elements/HTMLArea.vue';
+import utils from "@utils/utils.js"
 
 export default {
 	components: {
